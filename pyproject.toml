@@ -1,0 +1,16 @@
+[project]
+name = "interviewpreparationtool"
+version = "0.1.0"
+description = "An interactive Streamlit application that simulates job interviews across various industries. Users input their target job description, and the system uses GPT to generate a series of relevant interview questions. The app incorporates speech-to-text functionality, allowing users to practice answering verbally. The AI then evaluates these responses, providing constructive feedback on content, delivery, and relevance. The system adapts to the user's performance, adjusting the difficulty of questions and focusing on areas that need improvement. User progress and performance metrics are tracked over time, offering insights into their interview skill development."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiortc>=1.13.0",
+    "av>=14.4.0",
+    "numpy>=2.3.2",
+    "openai>=1.106.1",
+    "pandas>=2.3.2",
+    "soundfile>=0.13.1",
+    "streamlit>=1.49.1",
+    "streamlit-webrtc>=0.63.4",
+]
